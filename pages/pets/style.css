@@ -460,7 +460,10 @@ footer {
   .cards_wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
-
+  .card__item{
+    display: flex;
+    justify-content: center;
+  }
   .card__wrapper {
     display: flex;
     justify-content: center;
