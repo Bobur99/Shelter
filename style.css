@@ -287,9 +287,10 @@ nav {
   text-align: center;
   letter-spacing: 0.06em;
   color: #545454;
+  display: block;
 }
 
-.pets__wrapper .card a {
+.pets__wrapper .card .card__link {
   font-family: "Georgia";
   font-style: normal;
   font-weight: 400;
@@ -309,7 +310,7 @@ nav {
   margin-top: 30px;
 }
 
-.pets__wrapper .card a:hover {
+.pets__wrapper .card .card__link:hover {
   background: #fddcc4;
 }
 
